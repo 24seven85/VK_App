@@ -13,6 +13,8 @@
 		E56AC1F025C5392400159710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56AC1EE25C5392400159710 /* Main.storyboard */; };
 		E56AC1F225C5392500159710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56AC1F125C5392500159710 /* Assets.xcassets */; };
 		E56AC1F525C5392500159710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56AC1F325C5392500159710 /* LaunchScreen.storyboard */; };
+		E56AC1FE25C539B300159710 /* LoginFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56AC1FD25C539B300159710 /* LoginFormController.swift */; };
+		E56AC23825C93D2000159710 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56AC23725C93D2000159710 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E56AC1F125C5392500159710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E56AC1F425C5392500159710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E56AC1F625C5392500159710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E56AC1FD25C539B300159710 /* LoginFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormController.swift; sourceTree = "<group>"; };
+		E56AC23725C93D2000159710 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E56AC1EA25C5392400159710 /* SceneDelegate.swift */,
 				E56AC1EC25C5392400159710 /* ViewController.swift */,
 				E56AC1EE25C5392400159710 /* Main.storyboard */,
+				E56AC23725C93D2000159710 /* TableViewController.swift */,
+				E56AC1FD25C539B300159710 /* LoginFormController.swift */,
 				E56AC1F125C5392500159710 /* Assets.xcassets */,
 				E56AC1F325C5392500159710 /* LaunchScreen.storyboard */,
 				E56AC1F625C5392500159710 /* Info.plist */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E56AC1ED25C5392400159710 /* ViewController.swift in Sources */,
+				E56AC1FE25C539B300159710 /* LoginFormController.swift in Sources */,
 				E56AC1E925C5392400159710 /* AppDelegate.swift in Sources */,
+				E56AC23825C93D2000159710 /* TableViewController.swift in Sources */,
 				E56AC1EB25C5392400159710 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,11 +295,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ5Z5VDUCN;
 				INFOPLIST_FILE = VK_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.VK-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -305,11 +316,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ5Z5VDUCN;
 				INFOPLIST_FILE = VK_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.VK-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
